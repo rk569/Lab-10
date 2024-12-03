@@ -23,7 +23,7 @@ function addNumbers () {
 
 addNumbers ()
 
-// Question #4
+
 function updateTitle () {
     let newTitle = document.getElementById('inputField').value;
     document.getElementById('title').textContent = newTitle;
@@ -31,7 +31,7 @@ function updateTitle () {
 
 updateTitle ()
 
-// Question #5
+
 function concatenateStrings() {
     let str1 = document.getElementById('string1').value;
     let str2 = document.getElementById('string2').value;
@@ -39,7 +39,7 @@ function concatenateStrings() {
     document.getElementById('combinedText').textContent = result;
 }
 
-// Question #6
+
 let button = document.getElementById('changeBackgroundButton');
 let colorBox = document.getElementById('colorBox');
 
